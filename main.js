@@ -699,8 +699,8 @@ class HomeComponent {
         this.galleries = [];
     }
     ngOnInit() {
-        this.attractions = [{ text: "Mullayanagiri Peak - 22 Kms", image: "img_5.png" },
-            { text: "BabaBudangiri Peak - 33 Kms", image: "img_7_2x.png" },
+        this.attractions = [{ text: "Mullayanagiri Peak - 22 Kms", image: "img_5.png", name: "Mullayanagiri", desc: " is about 65 km away from the Vrushabha Homestay. This waterfalls is inside a coffee estate. Hebbe Falls gushes down from a height of 551 ft. in two stages to form Dodda Hebbe (Big Falls) and Chikka Hebbe (Small Falls.) The option of trekking is available, but the place is filled with leeches especially in the rainy season." },
+            { text: "BabaBudangiri Peak - 33 Kms", image: "img_7_2x.png", name: "BabaBudangiri", desc: " is about 65 km away from the Vrushabha Homestay. This waterfalls is inside a coffee estate. Hebbe Falls gushes down from a height of 551 ft. in two stages to form Dodda Hebbe (Big Falls) and Chikka Hebbe (Small Falls.) The option of trekking is available, but the place is filled with leeches especially in the rainy season." },
             { name: "Hebbe Falls", text: "Hebbe Falls - 65 Kms", image: "img_6.png", desc: " is about 65 km away from the Vrushabha Homestay. This waterfalls is inside a coffee estate. Hebbe Falls gushes down from a height of 551 ft. in two stages to form Dodda Hebbe (Big Falls) and Chikka Hebbe (Small Falls.) The option of trekking is available, but the place is filled with leeches especially in the rainy season." }];
         this.galleries = [{ image: "img_1.png" },
             { image: "img_2.png" },
